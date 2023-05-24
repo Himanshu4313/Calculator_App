@@ -39,3 +39,75 @@ h1 {
 .inputfield{
     padding: 10px 0px;
 }
+
+/* Extra Small Device */
+@media (max-width:600px){
+   body{
+    background-color: red;
+}
+.button {
+    padding: 12px;
+    font-size: 20px;
+    font-weight: 500;
+    width: 10vw;
+    cursor: pointer;
+    margin: 4px 1px;
+}
+}
+/* Small device */
+@media (min-width:600px){
+    body{
+        background-color: green;
+    }
+    .button {
+        padding: 12px;
+        font-size: 20px;
+        font-weight: 500;
+        width: 10vw;
+        cursor: pointer;
+        margin: 4px 1px;
+    }
+}
+/* phone device */
+@media (min-width:768px){
+    body{
+        background-color: blue;
+    }
+    .button {
+        padding: 12px;
+        font-size: 20px;
+        font-weight: 500;
+        width: 10vw;
+        cursor: pointer;
+        margin: 4px 1px;
+    }
+}
+/* For medium device */
+@media (min-width:992px){
+    body{
+        background-color: aqua;
+    }
+    .button {
+        padding: 12px;
+        font-size: 20px;
+        font-weight: 500;
+        width: 5vw;
+        cursor: pointer;
+        margin: 4px 1px;
+    }
+}
+/* For Large device */
+@media (min-width:1200px){
+    body{
+        background-color: #ffffff;
+    }
+    .button {
+        padding: 12px;
+        font-size: 20px;
+        font-weight: 500;
+        width: 5vw;
+        cursor: pointer;
+        margin: 4px 1px;
+    }
+}
+
